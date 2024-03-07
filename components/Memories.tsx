@@ -57,10 +57,14 @@ const Memories: React.FC = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-4 space-x-4">
-        <button onClick={prevMonth}><FontAwesomeIcon icon={faChevronLeft} /></button>
-        <button onClick={nextMonth}><FontAwesomeIcon icon={faChevronRight} /></button>
-      </div>
+      <div className="flex  justify-center mt-4 space-x-4 md:flex-col lg:flex-row lg:justify-between">
+      <button onClick={prevMonth} className="px-4 py-2 bg-blue-500 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+        <FontAwesomeIcon icon={faChevronLeft} />
+      </button>
+      <button onClick={nextMonth} className="px-4 py-2 bg-blue-500 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+        <FontAwesomeIcon icon={faChevronRight} />
+      </button>
+    </div>
     </div>
   );
 };
