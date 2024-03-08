@@ -40,7 +40,7 @@ const Memories: React.FC = () => {
         ) : (
           <hr className="my-2 w-1/2 border-black" />
         )}
-        <h2 className="text-xl font-homemadeApple font-bold">{getMonthName(currentMonth)} Moments</h2>
+        <h2 className="text-xl font-homemadeApple text-black font-bold">{getMonthName(currentMonth)} Moments</h2>
         {!toggle ? (
           <hr className="my-2 w-1/2 border-pink-500" />
         ) : (
