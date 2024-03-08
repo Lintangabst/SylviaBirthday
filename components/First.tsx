@@ -7,7 +7,7 @@ const First: React.FC = () => {
       <div className="lg:flex lg:justify-between lg:items-center">
         <div className="lg:text-left">
           <h1 className="text-3xl font-bold text-pink-500 font-homemadeApple mb-8 pt-8 pb-8 lg:pt-0 lg:pb-0">Happy Birthday, Babe!</h1>
-          <p className='mb-8'>Hello dear, what is here is not much, but I made it <br /> with love, and I wanna say this to you...</p>
+          <p className='mb-8 text-black'>Hello dear, what is here is not much, but I made it <br /> with love, and I wanna say this to you...</p>
           <div className='flex flex-col space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0 lg: ml-4 md:ml-0 pb-8'>
             <Link href="#loveLetter">
               <button className="bg-white text-black font-forum py-2 px-4 rounded-full border border-black flex items-center">
