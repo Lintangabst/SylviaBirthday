@@ -28,6 +28,11 @@ const First: React.FC = () => {
         </div>
       </div>
       <img src="/img/firstV.png" alt="Background" className="mx-auto" />
+
+      <div className='pt-[161px] '>
+<iframe style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/4bEcGqFbKx2d5d44pdEgig?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      
     </div>
   );
 };
